@@ -62,7 +62,6 @@ int main(int argc, char const *argv[])
     head->next = new Node(20);
     head->next->next = new Node(30);
     head->next->next->next = new Node(40);
-
     cout << llSearch(head, 20) << " ";
     cout << rllSearch(head, 20) << " ";
     return 0;
